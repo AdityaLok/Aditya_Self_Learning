@@ -8,13 +8,14 @@
     android:layout_marginRight="10dp">
 
     <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scrollbars="vertical">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical">
 
             <TextView
@@ -25,60 +26,62 @@
                 android:layout_marginTop="20sp"
                 android:text="@string/app_name"
                 android:textAlignment="center"
+                android:layout_margin="50sp"
                 android:textSize="50sp" />
 
             <Button
                 android:id="@+id/btnButton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:text="@string/btn1"
-                android:textSize="20sp" />
+                android:onClick="onButton1ClickListener"
+                android:textSize="20sp"
+                android:layout_margin="80sp"/>
 
             <Button
                 android:id="@+id/btnButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="1sp"
                 android:text="@string/btn2"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_margin="80sp"/>
 
             <Button
                 android:id="@+id/btnButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="1sp"
                 android:text="@string/btn3"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_margin="80sp"/>
 
             <Button
                 android:id="@+id/btnButton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="1sp"
                 android:text="@string/btn4"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_margin="80sp"/>
 
             <Button
                 android:id="@+id/btnButton5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="1sp"
                 android:text="@string/btn5"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_margin="80sp"/>
 
             <Button
                 android:id="@+id/btnButton6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginTop="1sp"
                 android:text="@string/btn6"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_margin="80sp"/>
 
 
         </LinearLayout>
