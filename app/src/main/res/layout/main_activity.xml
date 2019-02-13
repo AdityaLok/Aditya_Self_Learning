@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="20sp"
                 android:text="@string/app_name"
                 android:textAlignment="center"
                 android:textSize="50sp" />
@@ -32,11 +32,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="1dp"
-                android:layout_marginRight="1dp"
-                android:layout_marginBottom="1dp"
                 android:text="@string/btn1"
                 android:textSize="20sp" />
 
@@ -45,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="1sp"
                 android:text="@string/btn2"
                 android:textSize="20sp" />
 
@@ -54,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="1sp"
                 android:text="@string/btn3"
                 android:textSize="20sp" />
 
@@ -63,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="1sp"
                 android:text="@string/btn4"
                 android:textSize="20sp" />
 
@@ -72,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="1sp"
                 android:text="@string/btn5"
                 android:textSize="20sp" />
 
@@ -81,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="1sp"
                 android:text="@string/btn6"
                 android:textSize="20sp" />
 
