@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="700dp"
+    android:layout_height="900dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment1"
+            class="com.example.project.Fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_gravity="top" />
+        <fragment
+            android:id="@+id/fragment2"
+            class="com.example.project.Fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_gravity="center" />
+
+</LinearLayout>

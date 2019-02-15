@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".Frag1"
+            android:label="@string/title_activity_frag1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Activity6" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Fragment" />
+        <activity android:name=".ItemsFragment" />
+        <activity android:name=".View2" />
     </application>
 
 </manifest>

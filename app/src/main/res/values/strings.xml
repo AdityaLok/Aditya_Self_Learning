@@ -7,4 +7,16 @@
     <string name="btn4">Button 4</string>
     <string name="btn5">Button 5</string>
     <string name="btn6">Button 6</string>
+    <string name="fragment1">Fragment1</string>
+    <string name="fragment2">Fragment2</string>
+    <string name="frag1">Frag1</string>
+    <string name="frag2">Frag2</string>
+    <string name="frag3">Frag3</string>
+    <string name="frag4">Frag4</string>
+    <string name="frag5">Frag5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_frag3">Frag3</string>
+    <string name="title_activity_frag1">Frag1</string>
 </resources>
